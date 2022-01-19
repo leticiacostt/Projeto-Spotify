@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+header#cabecalho {
+    width: auto;
+    height: 62.5px;
+    background-color: black;
+}
+header#cabecalho img#logo{
+    height: 40px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 96px;
+    
+}
+ul#menu {
+    list-style: none;
+    text-transform: capitalize;
+    float: right;
+    color: white;
+    margin-top: 15px;
+    margin-right: 100px;
+    word-spacing: 10.5px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul#menu a.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-decoration: none;
+    
+}
+ul#menu a.link:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+section#corpo{
+    background-color: #204689;
+    width: auto;
+    height: 600px;
+}
+section#corpo h1{
+    color: #1ED760;
+    font-size: 130px;
+    font-family:'Anton', sans-serif;
+    text-align: center;
+    width: 900px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+
+}
+section#corpo h4{
+    color: #1ED760;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+section#corpo input#baixe{
+    background-color: #1ED760;
+    color: #204689;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px 40px 16px;
+    letter-spacing: 1,4px;
+    border-radius: 500px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    margin-left: 550px;
+
+}
+section#corpo input#baixe:hover{
+    background-color: white;
+    transition: 0.1s;
+    cursor: pointer;
+    
+}
